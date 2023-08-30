@@ -1,4 +1,4 @@
-class tituloComponentDinamico extends HTMLElement {
+class TituloComponentDinamico extends HTMLElement {
     constructor(){
         super();
 
@@ -22,4 +22,4 @@ class tituloComponentDinamico extends HTMLElement {
     }
 }
 
-customElements.define("titulo-dinamico", tituloComponentDinamico);
+customElements.define("titulo-dinamico", TituloComponentDinamico);

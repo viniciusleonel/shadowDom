@@ -1,4 +1,4 @@
-class titutloPorComponent extends HTMLElement {
+class TitutloPorComponent extends HTMLElement {
     constructor(){
         super();
 
@@ -10,4 +10,4 @@ class titutloPorComponent extends HTMLElement {
     }
 }
 
-customElements.define("titulo-fixo", titutloPorComponent);
+customElements.define("titulo-fixo", TitutloPorComponent);

@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
 
-
-    // Defer faz com que o script seja lido por último
+    <!-- Defer faz com que o script seja lido por último -->
     <script src="./src/components/tituloComponentDinamico.js" defer></script>
     <script src="./src/components/tituloPorComponent.js" defer></script>
+    <script src="./src/components/cardNews.js" defer></script>
 
     <title>Shadow Dom</title>
 </head>
 <body>
-    <h1>Html normal</h1>
-    <titulo-fixo></titulo-fixo>
-    <titulo-dinamico titulo="Titulo Component Dinâmico"></titulo-dinamico>
+    <card-news
+        autor="Vinícius"
+        title="Darth Vader Contrata"
+        photo="./assets/death-star-vader-office2.jpeg"
+        link-url="https://www.linkedin.com/in/viniciuslps/"
+        content="Darth Vader procura desenvolvedores que saibam trabalhar com components"
+    ></card-news>
+
+    <card-news
+        title="Yoda convence republica a utilizar components"
+        link-url="https://www.linkedin.com/in/viniciuslps/"
+        content="Yoda se pronuncia e choca republica"
+    ></card-news>
     
 </body>
 </html>
